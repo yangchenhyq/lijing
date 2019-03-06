@@ -9,6 +9,7 @@
     <me-scroll class="wrapper" ref="scroll">
       <div class="content">
         <div class="swiper">
+
           <!-- <img :src="this.$route.params.imgurl"> -->
           <img :src="`http:${this.product.baseinfo.picUrl}`" alt>
         </div>
@@ -110,6 +111,7 @@ export default {
   height: 500px;
   overflow: hidden;
 }
+//yhjhhvvv
 .button-block {
   display: flex;
 }
